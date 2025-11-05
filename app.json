@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Che Gia Huy - SE183043",
+    "slug": "superhero-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#6200EE",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        }
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#6200EE"
+      },
+      "usesCleartextTraffic": true,
+      "networkSecurityConfig": {
+        "cleartextTrafficPermitted": true
+      }
+    }
+  }
+}
