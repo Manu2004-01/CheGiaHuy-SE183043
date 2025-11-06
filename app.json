@@ -21,6 +21,8 @@
       }
     },
     "android": {
+      "package": "com.chegiahuy.superheroapp",
+      "versionCode": 1,
       "adaptiveIcon": {
         "backgroundColor": "#6200EE"
       },
